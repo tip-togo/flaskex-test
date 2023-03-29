@@ -1,0 +1,15 @@
+version: "1.0"
+
+#local build
+#services:
+#  app:
+#    build: .
+#    ports:
+#      - "5000:5000"
+
+#image from docker hub
+services:
+  app:
+    image: tiptogo/flaskex
+    ports:
+      - "5000:5000"
